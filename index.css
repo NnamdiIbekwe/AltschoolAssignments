@@ -1,0 +1,179 @@
+.header {
+    width: 2500px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 350px;
+    height: 80px;
+    background-image: url(pusher-logo.png);
+    background-repeat: no-repeat;
+    margin-top: 70px;
+}
+.nav {
+    width: 200px;
+    height: 80px;
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+nav {
+    display: inline-flex;
+    text-align: center;
+    align-items: end;
+}
+.nav a {
+    color: black;
+    justify-self: baseline;
+}
+.container {
+    width: 1645px;
+    height: 1200px;
+    background-color: white;
+    border: 1px solid;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: stretch;
+}
+.leftbox {
+    width:975px;
+}
+.rightbox {
+    width: 670px;
+    border-radius: 0px, 6px, 6px, 0px;
+    background-color: rgb(21, 95, 179);
+    color: rgb(235, 238, 240);
+    font-size: 30px;
+}
+.subheader {
+    font-size: 45px;
+    font-weight:400;
+    text-shadow: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: -50px;
+    height: 150px;
+    text-shadow: 50px;
+}
+.title {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    width: 350px;
+}
+.numberone {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-color: rgb(38, 38, 233);
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(38, 38, 233);
+    margin-right: 10px;
+}
+.inputdata {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 20rem;
+}
+.label {
+    font-size: 30px;
+    font-weight: 500;
+}
+.input {
+    width: 20rem;
+    height: 3rem;
+    font-size: 25px;
+    border: 0;
+    background-color: rgb(234, 237, 238);
+    margin-top: 10px;
+}
+.inputdataright {
+    margin-right: 10rem;
+    margin-top: -6rem;
+    float: right;
+}
+.helpbox {
+width: 683px;
+height: 146.1px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+.buy {
+    width: 683px;
+    height: 52px;
+    background-color: green;
+    border-radius: 6%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 10px;
+}
+.buy div {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    height: 32px;
+}
+div h2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 450px;
+}
+.content {
+    width: 450px;
+    height: 900px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.pricing {
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-top: 30px;
+}
+.list {
+    width: 360px;
+    height: 150px;
+    top: 416px;
+    left: 887px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+a {
+    font-weight: 400;
+    font-size: 31px;
+    color: rgb(240, 236, 236);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(219, 219, 226);
+}
+.FTP {
+    width: 360px;
+    height: 150px;
+    top: 416px;
+    left: 887px;
+    font-size: 30px;
+    /* display: block; */
+    border-top: 1px solid;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
